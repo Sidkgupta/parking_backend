@@ -77,7 +77,7 @@
 	</dependencies>
 	<distributionManagement>
 	  <snapshotRepository>
-	    <id>releases</id>
+	    <id>nexus-releases</id>
 	    <url>http://52.66.211.114:8081/nexus/content/repositories/releases/</url>
 	  </snapshotRepository>
 	</distributionManagement>
