@@ -84,11 +84,11 @@
 	<distributionManagement>
 	<snapshotRepository>
 	    <id>nexus</id>
-	    <url>http://13.232.60.218:8081/nexus/content/repositories/snapshots/</url>
+	    <url>http://13.126.156.152:8081/nexus/content/repositories/snapshots/</url>
          </snapshotRepository>
 	  <repository>
 	    <id>nexus</id>
-	    <url>http://13.232.60.218:8081/nexus/content/repositories/releases/</url>
+	    <url>http://13.126.156.152:8081/nexus/content/repositories/releases/</url>
 	  </repository>
 	</distributionManagement>
 	
@@ -99,10 +99,10 @@
 			        <artifactId>maven-release-plugin</artifactId>
 			        <version>3.0.0-M1</version>
 				<configuration>
-				<autoVersionSubmodules>true</autoVersionSubmodules>
-				<pushChanges>false</pushChanges>
-				<localCheckout>true</localCheckout>
-				<tagNameFormat>@{project.version}</tagNameFormat>
+				  <autoVersionSubmodules>true</autoVersionSubmodules>
+				  <pushChanges>false</pushChanges>
+				  <localCheckout>true</localCheckout>
+				  <tagNameFormat>@{project.version}</tagNameFormat>
 				</configuration>
 			</plugin>
 			<plugin>
