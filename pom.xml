@@ -82,10 +82,10 @@
           <tag>HEAD</tag>
         </scm>
 	<distributionManagement>
-	<snapshoRepository>
+	<snapshotRepository>
 	    <id>nexus</id>
 	    <url>http://13.232.60.218:8081/nexus/content/repositories/snapshots/</url>
-         </snapshoRepository>
+         </snapshotRepository>
 	  <repository>
 	    <id>nexus</id>
 	    <url>http://13.232.60.218:8081/nexus/content/repositories/releases/</url>
